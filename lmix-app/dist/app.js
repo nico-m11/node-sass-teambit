@@ -115,8 +115,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\Users\Utente\Desktop\Boolean\Esercizi\node-sass-teambit\lmix-app\src\app.js */"./src/app.js");
-module.exports = __webpack_require__(/*! D:\Users\Utente\Desktop\Boolean\Esercizi\node-sass-teambit\lmix-app\src\app.scss */"./src/app.scss");
+__webpack_require__(/*! D:\users\utente\desktop\boolean\esercizi\node-sass-teambit\lmix-app\src\app.js */"./src/app.js");
+module.exports = __webpack_require__(/*! D:\users\utente\desktop\boolean\esercizi\node-sass-teambit\lmix-app\src\app.scss */"./src/app.scss");
 
 
 /***/ })

@@ -1,0 +1,33 @@
+$display-flex: flex;
+$display-inline: inline-block;
+$margin-lat: 35px;
+$margin-top-bot: 20px;
+$margin-sx: 300px;
+$padding: 10px;
+$border-bot: 1px solid black;
+$width: 65%;
+
+
+.container-nav {
+  display: $display-flex;
+  margin-top: $margin-top-bot;
+  margin-left: $margin-lat;
+  border-bottom: $border-bot;
+  width: $width;
+  text-align: center;
+  margin-left: $margin-sx;
+}
+
+.nav-list {
+  li {list-style: none;
+  display: $display-inline;
+  margin-left: $margin-lat;
+  padding: $padding;
+  }
+}
+
+.btn-1 {
+  padding: $padding;
+  background-color: white;
+  border-color: #2c4792;
+}

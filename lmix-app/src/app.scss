@@ -1,5 +1,12 @@
-$primari-color: blue;
+@import 'partials/_common';
+@import 'partials/_footer';
+@import 'partials/_header';
+@import 'partials/_main';
+@import 'partials/_navbar';
 
-h1 {
-  color: $primari-color;
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
