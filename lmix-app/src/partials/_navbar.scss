@@ -6,6 +6,7 @@ $margin-sx: 300px;
 $padding: 10px;
 $border-bot: 1px solid black;
 $width: 65%;
+$margin-bott: 10px;
 
 
 .container-nav {
@@ -30,4 +31,5 @@ $width: 65%;
   padding: $padding;
   background-color: white;
   border-color: #2c4792;
+  margin-bottom: $margin-bott;
 }

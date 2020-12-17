@@ -1,0 +1,59 @@
+$height: 180px;
+$width: 140px;
+$margin-top: 80px;
+$margin-lf: 450px;
+$margin-rt: 250px;
+$padding: 25px;
+$position: absolute;
+$left: 350;
+$disp-in-blok: inline-block;
+$marg-bott: 80px;
+$border-bottom: 1px solid black;
+
+.pt-one {
+  background-color: #ffe7d2;
+}
+.containe-mian-one {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  padding-top: $padding;
+}
+
+.card {
+  display: $disp-in-blok;
+  height: $height;
+  width: $width;
+  padding: $padding;
+  margin-top: $margin-top;
+  margin-bottom: $marg-bott;
+  img {
+    height: $height;
+    width: $width;
+  }
+  p {
+    text-align: center;
+    position: $position;
+    left: $left;
+  }
+}
+.uno {
+  margin-left: $margin-rt;
+}
+.due {
+  margin-left: $margin-lf;
+}
+
+.tre {
+  margin-left: $margin-lf;
+}
+
+.quattro {
+  margin-top: $margin-top;
+  text-align: center;
+  img {
+    height: $height;
+    width: $width;
+  }
+}
