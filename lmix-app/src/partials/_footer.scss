@@ -1,0 +1,23 @@
+$dis-flex: flex;
+$dis-inline-block: inline-block;
+$margin-bottom: 20px;
+$margin: 250px;
+footer {
+  display: $dis-flex;
+  margin-top: $margin-bottom;
+  .col-footer {
+    margin-left: $margin;
+    img {
+      margin-top: $margin-bottom;
+    }
+  }
+}
+p {
+  display: $dis-inline-block;
+}
+li {
+  list-style: none;
+}
+h4 {
+  margin-bottom: $margin-bottom;
+}

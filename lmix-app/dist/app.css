@@ -46,6 +46,31 @@
   width: 100%;
 }
 
+footer {
+  display: flex;
+  margin-top: 20px;
+}
+
+footer .col-footer {
+  margin-left: 250px;
+}
+
+footer .col-footer img {
+  margin-top: 20px;
+}
+
+p {
+  display: inline-block;
+}
+
+li {
+  list-style: none;
+}
+
+h4 {
+  margin-bottom: 20px;
+}
+
 .container-header {
   margin-left: 300px;
   margin-top: 50px;
