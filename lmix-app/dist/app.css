@@ -201,6 +201,56 @@ a {
   text-decoration: none;
 }
 
+.btn-2 {
+  padding: 10px;
+  margin-left: 15px;
+  background-color: #2c4792;
+  color: white;
+}
+
+.pt-otto {
+  text-align: center;
+  margin-top: 80px;
+  margin-top: 80px;
+  background-color: #0414B3;
+}
+
+.pt-otto h1 {
+  margin-bottom: 80px;
+  color: white;
+}
+
+.pt-otto p {
+  color: white;
+  margin-top: 80px;
+}
+
+.parag-otto {
+  width: 1000px;
+  margin-left: 450px;
+  margin-bottom: 80px;
+  background-color: white;
+  border: solid 1px white;
+  border-radius: 30px;
+  height: 380px;
+}
+
+.parag-otto p {
+  color: #7F14D4;
+  margin: 25px;
+  text-align: left;
+}
+
+span {
+  text-align: left;
+  float: left;
+}
+
+.fouder {
+  float: left;
+  padding: 10px;
+}
+
 .container-nav {
   display: flex;
   margin-top: 20px;

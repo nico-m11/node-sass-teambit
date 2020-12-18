@@ -16,6 +16,9 @@ $width-sec: 320px;
 $background-color-blue: #0414B3;
 $color-white: white;
 $color-purp: #7F14D4;
+$padding-due: 10px;
+$margin-left: 15px;
+$width-terz: 380px;
 
 
 .pt-one {
@@ -120,4 +123,49 @@ $color-purp: #7F14D4;
 }
 a {
   text-decoration: none;
+}
+.btn-2 {
+  padding: $padding-due;
+  margin-left: $margin-left;
+  background-color: #2c4792;
+  color: white;
+}
+
+.pt-otto {
+  text-align: center;
+  margin-top: $margin-top;
+  margin-top: $margin-top;
+  background-color: $background-color-blue;
+  h1 {
+    margin-bottom: $margin-top;
+    color: $color-white;
+  }
+  p {
+    color: $color-white;
+    margin-top: $margin-top;
+  }
+}
+.parag-otto{
+  width: $wid-img-big;
+  margin-left: $margin-lf;
+  margin-bottom: $margin-top;
+  background-color: white;
+  border: solid 1px white;
+  border-radius: 30px;
+  height: $width-terz;
+
+  p {
+    color: $color-purp;
+    margin: $padding;
+    text-align: left;
+  }
+}
+
+span {
+  text-align: left;
+  float: left;
+}
+.fouder {
+  float: left;
+  padding: $padding-due;
 }
