@@ -7,6 +7,9 @@ $margin-left: 15px;
 $height: 400px;
 $width: 500px;
 $display-flex: flex;
+$heit-logo: 17px;
+$width-logo: 17px;
+$color-purp: #7F14D4;
 
 
 
@@ -17,9 +20,15 @@ $display-flex: flex;
   h1 {
     font-size: $font-size;
     padding: $padding;
+    color: $color-purp;
   }
   p {
     padding: $padding;
+    color: $color-purp;
+  }
+  .logo-bt {
+    height: $heit-logo;
+    width: $width-logo;
   }
   .btn-2 {
     padding: $padding-due;

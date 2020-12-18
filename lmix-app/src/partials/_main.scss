@@ -8,15 +8,26 @@ $position: absolute;
 $left: 350;
 $disp-in-blok: inline-block;
 $marg-bott: 80px;
-$border-bottom: 1px solid black;
+$border-bottom: 1px solid white;
+$margin-sistem: 55px;
+$wid-img-big: 1000px;
+$dis-flex: flex;
+$width-sec: 320px;
+$background-color-blue: #0414B3;
+$color-white: white;
+$color-purp: #7F14D4;
+
 
 .pt-one {
-  background-color: #ffe7d2;
+  background-color: $background-color-blue;
+  border-bottom: $border-bottom;
+  padding-bottom: $margin-top;
 }
 .containe-mian-one {
   text-align: center;
 }
-h1 {
+.center {
+  color: $color-white;
   text-align: center;
   padding-top: $padding;
 }
@@ -28,9 +39,11 @@ h1 {
   padding: $padding;
   margin-top: $margin-top;
   margin-bottom: $marg-bott;
+  color: $color-white;
   img {
     height: $height;
     width: $width;
+    margin-left: $margin-sistem;
   }
   p {
     text-align: center;
@@ -52,8 +65,59 @@ h1 {
 .quattro {
   margin-top: $margin-top;
   text-align: center;
+  margin-bottom: $margin-top;
   img {
     height: $height;
     width: $width;
   }
+}
+.second {
+  border-bottom: none;
+}
+.pt-tre {
+  display: $dis-flex;
+  margin-top: $margin-top;
+  color: $color-purp;
+  h1{
+    margin-top: $margin-top;
+    margin-bottom: $margin-top;
+    color: $color-purp;
+  }
+  h2 {
+    margin-bottom: $margin-sistem;
+    color: $color-purp;
+  }
+  .dx {
+    margin-left: $margin-sistem;
+    margin-right: $margin-rt;
+
+  }
+}
+.img-big {
+  width: $wid-img-big;
+}
+.small {
+  width: $width-sec;
+}
+
+.pt-quattro {
+  display: $dis-flex;
+  margin-top: $margin-top;
+  overflow-x: hidden;
+  color: $color-purp;
+  h1{
+    margin-top: $margin-top;
+    margin-bottom: $margin-top;
+    color: $color-purp;
+  }
+  h2 {
+    margin-bottom: $margin-sistem;
+    color: $color-purp;
+  }
+  .sx {
+    margin-left: $margin-rt;
+  }
+}
+a {
+  text-decoration: none;
 }

@@ -55,10 +55,17 @@
 .container-header h1 {
   font-size: 40px;
   padding: 20px;
+  color: #7F14D4;
 }
 
 .container-header p {
   padding: 20px;
+  color: #7F14D4;
+}
+
+.container-header .logo-bt {
+  height: 17px;
+  width: 17px;
 }
 
 .container-header .btn-2 {
@@ -74,14 +81,17 @@
 }
 
 .pt-one {
-  background-color: #ffe7d2;
+  background-color: #0414B3;
+  border-bottom: 1px solid white;
+  padding-bottom: 80px;
 }
 
 .containe-mian-one {
   text-align: center;
 }
 
-h1 {
+.center {
+  color: white;
   text-align: center;
   padding-top: 25px;
 }
@@ -93,11 +103,13 @@ h1 {
   padding: 25px;
   margin-top: 80px;
   margin-bottom: 80px;
+  color: white;
 }
 
 .card img {
   height: 180px;
   width: 140px;
+  margin-left: 55px;
 }
 
 .card p {
@@ -121,11 +133,72 @@ h1 {
 .quattro {
   margin-top: 80px;
   text-align: center;
+  margin-bottom: 80px;
 }
 
 .quattro img {
   height: 180px;
   width: 140px;
+}
+
+.second {
+  border-bottom: none;
+}
+
+.pt-tre {
+  display: flex;
+  margin-top: 80px;
+  color: #7F14D4;
+}
+
+.pt-tre h1 {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  color: #7F14D4;
+}
+
+.pt-tre h2 {
+  margin-bottom: 55px;
+  color: #7F14D4;
+}
+
+.pt-tre .dx {
+  margin-left: 55px;
+  margin-right: 250px;
+}
+
+.img-big {
+  width: 1000px;
+}
+
+.small {
+  width: 320px;
+}
+
+.pt-quattro {
+  display: flex;
+  margin-top: 80px;
+  overflow-x: hidden;
+  color: #7F14D4;
+}
+
+.pt-quattro h1 {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  color: #7F14D4;
+}
+
+.pt-quattro h2 {
+  margin-bottom: 55px;
+  color: #7F14D4;
+}
+
+.pt-quattro .sx {
+  margin-left: 250px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .container-nav {
@@ -134,8 +207,12 @@ h1 {
   margin-left: 35px;
   border-bottom: 1px solid black;
   width: 65%;
-  text-align: center;
   margin-left: 300px;
+}
+
+.logo-bt {
+  height: 17px;
+  width: 17px;
 }
 
 .nav-list li {
@@ -143,6 +220,7 @@ h1 {
   display: inline-block;
   margin-left: 35px;
   padding: 10px;
+  color: #7F14D4;
 }
 
 .btn-1 {

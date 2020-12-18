@@ -1,3 +1,4 @@
+
 $display-flex: flex;
 $display-inline: inline-block;
 $margin-lat: 35px;
@@ -7,6 +8,10 @@ $padding: 10px;
 $border-bot: 1px solid black;
 $width: 65%;
 $margin-bott: 10px;
+$heit-logo: 17px;
+$width-logo: 17px;
+$color-purp: #7F14D4;
+
 
 
 .container-nav {
@@ -15,15 +20,18 @@ $margin-bott: 10px;
   margin-left: $margin-lat;
   border-bottom: $border-bot;
   width: $width;
-  text-align: center;
   margin-left: $margin-sx;
 }
-
+.logo-bt {
+  height: $heit-logo;
+  width: $width-logo;
+}
 .nav-list {
   li {list-style: none;
   display: $display-inline;
   margin-left: $margin-lat;
   padding: $padding;
+  color: $color-purp;
   }
 }
 
